@@ -188,7 +188,7 @@ class UserDetailsComponent extends Component {
                         <DialogContent dividers>
                             {this.state.activityPeriods.length > 0 ?
                                 <div className="ActivityTableStyle">
-                                    <Table border="1px solid black" borderStyle="solid" width='2rem' height='2rem' className={classes.table} aria-label="customized table" style={{ borderTop: '1px solid red' }}>
+                                    <Table border="2px solid black"  >
                                         <TableHead>
                                             <TableRow>
                                                 <StyledTableCell align="center">Start Time</StyledTableCell>
