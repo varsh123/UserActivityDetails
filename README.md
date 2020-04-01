@@ -158,11 +158,9 @@ This project setup uses Webpack for handling all assets.
 Webpack offers a custom way of “extending” the concept of import beyond JavaScript.
 To express that a JavaScript file depends on a CSS file, you need to import the CSS in the JavaScript file
 
-For using a mock Api , we are using json-server utility which utilises the json file located at ./src/static/json/UserDetails.json  as the Api response. 
+For using a mock Api , we are using json-server utility hosted as a separate heroku project 
 
-Command used to start server  json-server ./src/static/json/UserDetails.json 
-
-Api server runs at port: 3000 and Api can be accessed through  http://localhost:3000/members
+Api server is  hosted on heroku and Api can be accessed through  https://json-server-user-details.herokuapp.com/members
 
 
  
