@@ -27,7 +27,7 @@ class FooterComponent extends Component{
               <div style={{ paddingLeft: '0px', paddingRight: '0px', paddingTop: '238px'}}>
             <AppBar position="static">
                 <Typography variant="h6" className={classes.title} align="center" component={'span'}>
-                © {currentYear} FullThrottle Labs 
+                © {currentYear} DXC TECHNOLOGY
                 </Typography>
             </AppBar>
           </div>
